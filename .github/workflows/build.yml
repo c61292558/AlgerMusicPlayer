@@ -2,8 +2,8 @@ name: Build and Release
 
 on:
   push:
-    branches:
-      - dev_electron
+    tags:
+      - 'v*'
 
 jobs:
   release:
